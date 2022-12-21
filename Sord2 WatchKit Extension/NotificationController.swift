@@ -30,9 +30,9 @@ class NotificationController: WKUserNotificationInterfaceController {
         super.didDeactivate()
     }
 
-    override func didReceive(_ notification: UNNotification) {
+//    override func didReceive(_ notification: UNNotification) {
         // This method is called when a notification needs to be presented.
         // Implement it if you use a dynamic notification interface.
         // Populate your dynamic notification interface as quickly as possible.
-    }
+//    }
 }

@@ -7,9 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C15EFA723DB30D200DADD24 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFA623DB30D200DADD24 /* IntentHandler.swift */; };
+		5C15EFAB23DB30D200DADD24 /* Intents Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5C15EFA423DB30D200DADD24 /* Intents Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C15EFB723DB39B500DADD24 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFB623DB39B500DADD24 /* IntentHandler.swift */; };
+		5C15EFBB23DB39B500DADD24 /* Intents Extension iOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5C15EFB423DB39B500DADD24 /* Intents Extension iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C15EFC223DB514300DADD24 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC123DB514300DADD24 /* Intents.intentdefinition */; };
+		5C15EFC323DC6F4500DADD24 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC123DB514300DADD24 /* Intents.intentdefinition */; };
+		5C15EFC423DC6F5600DADD24 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC123DB514300DADD24 /* Intents.intentdefinition */; };
+		5C15EFC523DC6F5700DADD24 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC123DB514300DADD24 /* Intents.intentdefinition */; };
+		5C15EFC723DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC623DC909500DADD24 /* AddExpenseIntentHandler.swift */; };
+		5C15EFC823DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC623DC909500DADD24 /* AddExpenseIntentHandler.swift */; };
+		5C15EFC923DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC623DC909500DADD24 /* AddExpenseIntentHandler.swift */; };
+		5C15EFCA23DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFC623DC909500DADD24 /* AddExpenseIntentHandler.swift */; };
+		5C15EFCC23DCC80000DADD24 /* LimitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFCB23DCC80000DADD24 /* LimitViewController.swift */; };
+		5C15EFCE23DCF1BB00DADD24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFCD23DCF1BB00DADD24 /* TableViewController.swift */; };
+		5C15EFD123DDA7E500DADD24 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D423D9C11C00DA07E9 /* Shared.swift */; };
+		5C15EFD323DED20600DADD24 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFD223DED20600DADD24 /* CalendarViewController.swift */; };
+		5C15EFD523DED94200DADD24 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15EFD423DED94200DADD24 /* StatisticsViewController.swift */; };
+		5C15F01C23E1D9CE00DADD24 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D423D9C11C00DA07E9 /* Shared.swift */; };
+		5C15F01D23E1D9CE00DADD24 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D423D9C11C00DA07E9 /* Shared.swift */; };
+		5C17219723E82F4D0078AC87 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C17219623E82F4D0078AC87 /* IntentManager.swift */; };
+		5C17219823E962A20078AC87 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C17219623E82F4D0078AC87 /* IntentManager.swift */; };
+		5C17219923E963770078AC87 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C17219623E82F4D0078AC87 /* IntentManager.swift */; };
+		5C17219A23E963770078AC87 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C17219623E82F4D0078AC87 /* IntentManager.swift */; };
+		5C17219F23E970E30078AC87 /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D523D9C11D00DA07E9 /* TableInterfaceController.swift */; };
+		5C1721A023E9710D0078AC87 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4F0A23E4173F00479885 /* WatchSessionManager.swift */; };
+		5C1721A123E9711F0078AC87 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D323D9C11C00DA07E9 /* RowController.swift */; };
+		5C27ACF323EAC45000808C0F /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C27ACF023EAC45000808C0F /* MonthView.swift */; };
+		5C27ACF423EAC45000808C0F /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C27ACF123EAC45000808C0F /* WeekdaysView.swift */; };
+		5C27ACF523EAC45000808C0F /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C27ACF223EAC45000808C0F /* CalenderView.swift */; };
+		5C3A4F0923E388CB00479885 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4F0823E388CB00479885 /* CurrencyViewController.swift */; };
+		5C3A4F0B23E4173F00479885 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4F0A23E4173F00479885 /* WatchSessionManager.swift */; };
+		5C3A4F0C23E417EC00479885 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A4F0A23E4173F00479885 /* WatchSessionManager.swift */; };
+		5C6EA47523EB538F00F03492 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EA47423EB538F00F03492 /* DetailViewController.swift */; };
+		5CDD3F8D23E43D9A004AAA22 /* PeriodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD3F8C23E43D9A004AAA22 /* PeriodViewController.swift */; };
 		5CE5079523D9C0D900DA07E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5079423D9C0D900DA07E9 /* AppDelegate.swift */; };
 		5CE5079723D9C0D900DA07E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5079623D9C0D900DA07E9 /* SceneDelegate.swift */; };
-		5CE5079923D9C0D900DA07E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5079823D9C0D900DA07E9 /* ViewController.swift */; };
 		5CE5079C23D9C0D900DA07E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5079A23D9C0D900DA07E9 /* Main.storyboard */; };
 		5CE5079E23D9C0DB00DA07E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5079D23D9C0DB00DA07E9 /* Assets.xcassets */; };
 		5CE507A123D9C0DB00DA07E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5079F23D9C0DB00DA07E9 /* LaunchScreen.storyboard */; };
@@ -22,9 +55,29 @@
 		5CE507BE23D9C0DC00DA07E9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507BD23D9C0DC00DA07E9 /* NotificationController.swift */; };
 		5CE507C023D9C0DC00DA07E9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507BF23D9C0DC00DA07E9 /* ComplicationController.swift */; };
 		5CE507C223D9C0DC00DA07E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE507C123D9C0DC00DA07E9 /* Assets.xcassets */; };
+		5CE507D823D9C11D00DA07E9 /* LimiteInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D223D9C11C00DA07E9 /* LimiteInterfaceController.swift */; };
+		5CE507D923D9C11D00DA07E9 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D323D9C11C00DA07E9 /* RowController.swift */; };
+		5CE507DA23D9C11D00DA07E9 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D423D9C11C00DA07E9 /* Shared.swift */; };
+		5CE507DB23D9C11D00DA07E9 /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D523D9C11D00DA07E9 /* TableInterfaceController.swift */; };
+		5CE507DC23D9C11D00DA07E9 /* WatchStatsDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D623D9C11D00DA07E9 /* WatchStatsDrawer.swift */; };
+		5CE507DD23D9C11D00DA07E9 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE507D723D9C11D00DA07E9 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5C15EFA923DB30D200DADD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE5078923D9C0D900DA07E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C15EFA323DB30D200DADD24;
+			remoteInfo = "Intents Extension";
+		};
+		5C15EFB923DB39B500DADD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE5078923D9C0D900DA07E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C15EFB323DB39B500DADD24;
+			remoteInfo = "Intents Extension iOS";
+		};
 		5CE507A723D9C0DB00DA07E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5CE5078923D9C0D900DA07E9 /* Project object */;
@@ -42,6 +95,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5C15EFAC23DB30D200DADD24 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C15EFAB23DB30D200DADD24 /* Intents Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C15EFBF23DB39B500DADD24 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C15EFBB23DB39B500DADD24 /* Intents Extension iOS.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CE507CA23D9C0DC00DA07E9 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,10 +142,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C15EF9F23DB2AC900DADD24 /* Sord2 WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sord2 WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5C15EFA423DB30D200DADD24 /* Intents Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Intents Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C15EFA623DB30D200DADD24 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		5C15EFA823DB30D200DADD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C15EFB423DB39B500DADD24 /* Intents Extension iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Intents Extension iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C15EFB623DB39B500DADD24 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		5C15EFB823DB39B500DADD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C15EFC023DB4F9400DADD24 /* Sord2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sord2.entitlements; sourceTree = "<group>"; };
+		5C15EFC123DB514300DADD24 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		5C15EFC623DC909500DADD24 /* AddExpenseIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseIntentHandler.swift; sourceTree = "<group>"; };
+		5C15EFCB23DCC80000DADD24 /* LimitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitViewController.swift; sourceTree = "<group>"; };
+		5C15EFCD23DCF1BB00DADD24 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5C15EFD223DED20600DADD24 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		5C15EFD423DED94200DADD24 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		5C17219623E82F4D0078AC87 /* IntentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentManager.swift; sourceTree = "<group>"; };
+		5C27ACF023EAC45000808C0F /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonthView.swift; path = "../../../Downloads/calenderAppiOS-master/myCalender2/MonthView.swift"; sourceTree = "<group>"; };
+		5C27ACF123EAC45000808C0F /* WeekdaysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeekdaysView.swift; path = "../../../Downloads/calenderAppiOS-master/myCalender2/WeekdaysView.swift"; sourceTree = "<group>"; };
+		5C27ACF223EAC45000808C0F /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalenderView.swift; path = "../../../Downloads/calenderAppiOS-master/myCalender2/CalenderView.swift"; sourceTree = "<group>"; };
+		5C3A4F0823E388CB00479885 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		5C3A4F0A23E4173F00479885 /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		5C6EA47423EB538F00F03492 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5CDD3F8C23E43D9A004AAA22 /* PeriodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodViewController.swift; sourceTree = "<group>"; };
 		5CE5079123D9C0D900DA07E9 /* Sord2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sord2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE5079423D9C0D900DA07E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CE5079623D9C0D900DA07E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5CE5079823D9C0D900DA07E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CE5079B23D9C0D900DA07E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CE5079D23D9C0DB00DA07E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE507A023D9C0DB00DA07E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,9 +183,30 @@
 		5CE507C123D9C0DC00DA07E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE507C323D9C0DC00DA07E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE507C423D9C0DC00DA07E9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5CE507D223D9C11C00DA07E9 /* LimiteInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimiteInterfaceController.swift; sourceTree = "<group>"; };
+		5CE507D323D9C11C00DA07E9 /* RowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		5CE507D423D9C11C00DA07E9 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		5CE507D523D9C11D00DA07E9 /* TableInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
+		5CE507D623D9C11D00DA07E9 /* WatchStatsDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchStatsDrawer.swift; sourceTree = "<group>"; };
+		5CE507D723D9C11D00DA07E9 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
+		5CEEFC0F23E332F200061DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C15EFA123DB30D200DADD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C15EFB123DB39B500DADD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CE5078E23D9C0D900DA07E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,12 +224,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C15EFA523DB30D200DADD24 /* Intents Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5C15EFA623DB30D200DADD24 /* IntentHandler.swift */,
+				5C15EFC623DC909500DADD24 /* AddExpenseIntentHandler.swift */,
+				5C15EFA823DB30D200DADD24 /* Info.plist */,
+			);
+			path = "Intents Extension";
+			sourceTree = "<group>";
+		};
+		5C15EFB523DB39B500DADD24 /* Intents Extension iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C15EFB623DB39B500DADD24 /* IntentHandler.swift */,
+				5C15EFB823DB39B500DADD24 /* Info.plist */,
+			);
+			path = "Intents Extension iOS";
+			sourceTree = "<group>";
+		};
 		5CE5078823D9C0D900DA07E9 = {
 			isa = PBXGroup;
 			children = (
 				5CE5079323D9C0D900DA07E9 /* Sord2 */,
 				5CE507A923D9C0DB00DA07E9 /* Sord2 WatchKit App */,
 				5CE507B823D9C0DC00DA07E9 /* Sord2 WatchKit Extension */,
+				5C15EFA523DB30D200DADD24 /* Intents Extension */,
+				5C15EFB523DB39B500DADD24 /* Intents Extension iOS */,
 				5CE5079223D9C0D900DA07E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +261,8 @@
 				5CE5079123D9C0D900DA07E9 /* Sord2.app */,
 				5CE507A523D9C0DB00DA07E9 /* Sord2 WatchKit App.app */,
 				5CE507B423D9C0DC00DA07E9 /* Sord2 WatchKit Extension.appex */,
+				5C15EFA423DB30D200DADD24 /* Intents Extension.appex */,
+				5C15EFB423DB39B500DADD24 /* Intents Extension iOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,13 +270,26 @@
 		5CE5079323D9C0D900DA07E9 /* Sord2 */ = {
 			isa = PBXGroup;
 			children = (
+				5C27ACF223EAC45000808C0F /* CalenderView.swift */,
+				5C27ACF023EAC45000808C0F /* MonthView.swift */,
+				5C27ACF123EAC45000808C0F /* WeekdaysView.swift */,
+				5C15EFC023DB4F9400DADD24 /* Sord2.entitlements */,
+				5C15EFC123DB514300DADD24 /* Intents.intentdefinition */,
 				5CE5079423D9C0D900DA07E9 /* AppDelegate.swift */,
 				5CE5079623D9C0D900DA07E9 /* SceneDelegate.swift */,
-				5CE5079823D9C0D900DA07E9 /* ViewController.swift */,
+				5C15EFCD23DCF1BB00DADD24 /* TableViewController.swift */,
+				5C15EFCB23DCC80000DADD24 /* LimitViewController.swift */,
+				5C3A4F0823E388CB00479885 /* CurrencyViewController.swift */,
+				5CDD3F8C23E43D9A004AAA22 /* PeriodViewController.swift */,
+				5C15EFD223DED20600DADD24 /* CalendarViewController.swift */,
+				5C15EFD423DED94200DADD24 /* StatisticsViewController.swift */,
 				5CE5079A23D9C0D900DA07E9 /* Main.storyboard */,
 				5CE5079D23D9C0DB00DA07E9 /* Assets.xcassets */,
 				5CE5079F23D9C0DB00DA07E9 /* LaunchScreen.storyboard */,
 				5CE507A223D9C0DB00DA07E9 /* Info.plist */,
+				5CEEFC1023E332F200061DDF /* AppIntentVocabulary.plist */,
+				5C3A4F0A23E4173F00479885 /* WatchSessionManager.swift */,
+				5C6EA47423EB538F00F03492 /* DetailViewController.swift */,
 			);
 			path = Sord2;
 			sourceTree = "<group>";
@@ -154,13 +307,21 @@
 		5CE507B823D9C0DC00DA07E9 /* Sord2 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5C15EF9F23DB2AC900DADD24 /* Sord2 WatchKit Extension.entitlements */,
 				5CE507B923D9C0DC00DA07E9 /* InterfaceController.swift */,
+				5CE507D223D9C11C00DA07E9 /* LimiteInterfaceController.swift */,
+				5CE507D523D9C11D00DA07E9 /* TableInterfaceController.swift */,
+				5CE507D323D9C11C00DA07E9 /* RowController.swift */,
+				5CE507D723D9C11D00DA07E9 /* DetailInterfaceController.swift */,
+				5CE507D423D9C11C00DA07E9 /* Shared.swift */,
+				5CE507D623D9C11D00DA07E9 /* WatchStatsDrawer.swift */,
 				5CE507BB23D9C0DC00DA07E9 /* ExtensionDelegate.swift */,
 				5CE507BD23D9C0DC00DA07E9 /* NotificationController.swift */,
 				5CE507BF23D9C0DC00DA07E9 /* ComplicationController.swift */,
 				5CE507C123D9C0DC00DA07E9 /* Assets.xcassets */,
 				5CE507C323D9C0DC00DA07E9 /* Info.plist */,
 				5CE507C423D9C0DC00DA07E9 /* PushNotificationPayload.apns */,
+				5C17219623E82F4D0078AC87 /* IntentManager.swift */,
 			);
 			path = "Sord2 WatchKit Extension";
 			sourceTree = "<group>";
@@ -168,6 +329,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5C15EFA323DB30D200DADD24 /* Intents Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C15EFAF23DB30D200DADD24 /* Build configuration list for PBXNativeTarget "Intents Extension" */;
+			buildPhases = (
+				5C15EFA023DB30D200DADD24 /* Sources */,
+				5C15EFA123DB30D200DADD24 /* Frameworks */,
+				5C15EFA223DB30D200DADD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intents Extension";
+			productName = "Intents Extension";
+			productReference = 5C15EFA423DB30D200DADD24 /* Intents Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C15EFB323DB39B500DADD24 /* Intents Extension iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C15EFBC23DB39B500DADD24 /* Build configuration list for PBXNativeTarget "Intents Extension iOS" */;
+			buildPhases = (
+				5C15EFB023DB39B500DADD24 /* Sources */,
+				5C15EFB123DB39B500DADD24 /* Frameworks */,
+				5C15EFB223DB39B500DADD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intents Extension iOS";
+			productName = "Intents Extension iOS";
+			productReference = 5C15EFB423DB39B500DADD24 /* Intents Extension iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		5CE5079023D9C0D900DA07E9 /* Sord2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CE507CF23D9C0DC00DA07E9 /* Build configuration list for PBXNativeTarget "Sord2" */;
@@ -176,11 +371,13 @@
 				5CE5078E23D9C0D900DA07E9 /* Frameworks */,
 				5CE5078F23D9C0D900DA07E9 /* Resources */,
 				5CE507CE23D9C0DC00DA07E9 /* Embed Watch Content */,
+				5C15EFBF23DB39B500DADD24 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5CE507A823D9C0DB00DA07E9 /* PBXTargetDependency */,
+				5C15EFBA23DB39B500DADD24 /* PBXTargetDependency */,
 			);
 			name = Sord2;
 			productName = Sord2;
@@ -211,10 +408,12 @@
 				5CE507B023D9C0DC00DA07E9 /* Sources */,
 				5CE507B123D9C0DC00DA07E9 /* Frameworks */,
 				5CE507B223D9C0DC00DA07E9 /* Resources */,
+				5C15EFAC23DB30D200DADD24 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C15EFAA23DB30D200DADD24 /* PBXTargetDependency */,
 			);
 			name = "Sord2 WatchKit Extension";
 			productName = "Sord2 WatchKit Extension";
@@ -231,11 +430,18 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "iOS Foundation";
 				TargetAttributes = {
+					5C15EFA323DB30D200DADD24 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5C15EFB323DB39B500DADD24 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					5CE5079023D9C0D900DA07E9 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					5CE507A423D9C0DB00DA07E9 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					5CE507B323D9C0DC00DA07E9 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -258,11 +464,27 @@
 				5CE5079023D9C0D900DA07E9 /* Sord2 */,
 				5CE507A423D9C0DB00DA07E9 /* Sord2 WatchKit App */,
 				5CE507B323D9C0DC00DA07E9 /* Sord2 WatchKit Extension */,
+				5C15EFA323DB30D200DADD24 /* Intents Extension */,
+				5C15EFB323DB39B500DADD24 /* Intents Extension iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C15EFA223DB30D200DADD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C15EFB223DB39B500DADD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CE5078F23D9C0D900DA07E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,13 +515,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C15EFA023DB30D200DADD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C17219F23E970E30078AC87 /* TableInterfaceController.swift in Sources */,
+				5C15EFC923DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */,
+				5C1721A123E9711F0078AC87 /* RowController.swift in Sources */,
+				5C15EFC423DC6F5600DADD24 /* Intents.intentdefinition in Sources */,
+				5C15F01C23E1D9CE00DADD24 /* Shared.swift in Sources */,
+				5C15EFA723DB30D200DADD24 /* IntentHandler.swift in Sources */,
+				5C17219923E963770078AC87 /* IntentManager.swift in Sources */,
+				5C1721A023E9710D0078AC87 /* WatchSessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C15EFB023DB39B500DADD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15EFCA23DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */,
+				5C15EFC523DC6F5700DADD24 /* Intents.intentdefinition in Sources */,
+				5C15F01D23E1D9CE00DADD24 /* Shared.swift in Sources */,
+				5C15EFB723DB39B500DADD24 /* IntentHandler.swift in Sources */,
+				5C17219A23E963770078AC87 /* IntentManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CE5078D23D9C0D900DA07E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE5079923D9C0D900DA07E9 /* ViewController.swift in Sources */,
+				5C17219823E962A20078AC87 /* IntentManager.swift in Sources */,
+				5C6EA47523EB538F00F03492 /* DetailViewController.swift in Sources */,
+				5C15EFD323DED20600DADD24 /* CalendarViewController.swift in Sources */,
+				5C15EFD123DDA7E500DADD24 /* Shared.swift in Sources */,
+				5C15EFCE23DCF1BB00DADD24 /* TableViewController.swift in Sources */,
+				5CDD3F8D23E43D9A004AAA22 /* PeriodViewController.swift in Sources */,
 				5CE5079523D9C0D900DA07E9 /* AppDelegate.swift in Sources */,
+				5C27ACF523EAC45000808C0F /* CalenderView.swift in Sources */,
+				5C15EFC223DB514300DADD24 /* Intents.intentdefinition in Sources */,
+				5C15EFC723DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */,
+				5C15EFD523DED94200DADD24 /* StatisticsViewController.swift in Sources */,
 				5CE5079723D9C0D900DA07E9 /* SceneDelegate.swift in Sources */,
+				5C3A4F0B23E4173F00479885 /* WatchSessionManager.swift in Sources */,
+				5C15EFCC23DCC80000DADD24 /* LimitViewController.swift in Sources */,
+				5C3A4F0923E388CB00479885 /* CurrencyViewController.swift in Sources */,
+				5C27ACF423EAC45000808C0F /* WeekdaysView.swift in Sources */,
+				5C27ACF323EAC45000808C0F /* MonthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +570,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C15EFC823DC909500DADD24 /* AddExpenseIntentHandler.swift in Sources */,
+				5CE507DA23D9C11D00DA07E9 /* Shared.swift in Sources */,
+				5CE507DC23D9C11D00DA07E9 /* WatchStatsDrawer.swift in Sources */,
+				5CE507D923D9C11D00DA07E9 /* RowController.swift in Sources */,
+				5C15EFC323DC6F4500DADD24 /* Intents.intentdefinition in Sources */,
+				5C17219723E82F4D0078AC87 /* IntentManager.swift in Sources */,
 				5CE507BE23D9C0DC00DA07E9 /* NotificationController.swift in Sources */,
+				5CE507DD23D9C11D00DA07E9 /* DetailInterfaceController.swift in Sources */,
 				5CE507C023D9C0DC00DA07E9 /* ComplicationController.swift in Sources */,
+				5C3A4F0C23E417EC00479885 /* WatchSessionManager.swift in Sources */,
+				5CE507D823D9C11D00DA07E9 /* LimiteInterfaceController.swift in Sources */,
 				5CE507BC23D9C0DC00DA07E9 /* ExtensionDelegate.swift in Sources */,
+				5CE507DB23D9C11D00DA07E9 /* TableInterfaceController.swift in Sources */,
 				5CE507BA23D9C0DC00DA07E9 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +590,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5C15EFAA23DB30D200DADD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C15EFA323DB30D200DADD24 /* Intents Extension */;
+			targetProxy = 5C15EFA923DB30D200DADD24 /* PBXContainerItemProxy */;
+		};
+		5C15EFBA23DB39B500DADD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C15EFB323DB39B500DADD24 /* Intents Extension iOS */;
+			targetProxy = 5C15EFB923DB39B500DADD24 /* PBXContainerItemProxy */;
+		};
 		5CE507A823D9C0DB00DA07E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5CE507A423D9C0DB00DA07E9 /* Sord2 WatchKit App */;
@@ -354,9 +637,99 @@
 			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
+		5CEEFC1023E332F200061DDF /* AppIntentVocabulary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEEFC0F23E332F200061DDF /* Base */,
+			);
+			name = AppIntentVocabulary.plist;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C15EFAD23DB30D200DADD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
+				INFOPLIST_FILE = "Intents Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.unlimited.Sord3.watchkitapp.watchkitextension.Intents-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		5C15EFAE23DB30D200DADD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
+				INFOPLIST_FILE = "Intents Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.unlimited.Sord3.watchkitapp.watchkitextension.Intents-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		5C15EFBD23DB39B500DADD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
+				INFOPLIST_FILE = "Intents Extension iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.unlimited.Sord3.Intents-Extension-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C15EFBE23DB39B500DADD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
+				INFOPLIST_FILE = "Intents Extension iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.unlimited.Sord3.Intents-Extension-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5CE507C523D9C0DC00DA07E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,6 +764,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9G8RF9YZAN;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -407,6 +781,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -451,6 +826,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9G8RF9YZAN;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -461,6 +837,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -475,15 +852,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Sord2 WatchKit Extension/Sord2 WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G8RF9YZAN;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
 				INFOPLIST_FILE = "Sord2 WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord2.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord3.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -497,15 +875,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Sord2 WatchKit Extension/Sord2 WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G8RF9YZAN;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
 				INFOPLIST_FILE = "Sord2 WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord2.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord3.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -520,14 +899,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G8RF9YZAN;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
 				IBSC_MODULE = Sord2_WatchKit_Extension;
 				INFOPLIST_FILE = "Sord2 WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord2.watchkitapp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord3.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.1;
@@ -539,11 +925,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G8RF9YZAN;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
 				IBSC_MODULE = Sord2_WatchKit_Extension;
 				INFOPLIST_FILE = "Sord2 WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord2.watchkitapp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord3.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -556,42 +948,64 @@
 		5CE507D023D9C0DC00DA07E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sord2/Sord2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G8RF9YZAN;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
 				INFOPLIST_FILE = Sord2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord2;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5CE507D123D9C0DC00DA07E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sord2/Sord2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G8RF9YZAN;
+				DEVELOPMENT_TEAM = 3Y83RGA6PZ;
 				INFOPLIST_FILE = Sord2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord2;
+				PRODUCT_BUNDLE_IDENTIFIER = it.unlimited.Sord3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C15EFAF23DB30D200DADD24 /* Build configuration list for PBXNativeTarget "Intents Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C15EFAD23DB30D200DADD24 /* Debug */,
+				5C15EFAE23DB30D200DADD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C15EFBC23DB39B500DADD24 /* Build configuration list for PBXNativeTarget "Intents Extension iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C15EFBD23DB39B500DADD24 /* Debug */,
+				5C15EFBE23DB39B500DADD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5CE5078C23D9C0D900DA07E9 /* Build configuration list for PBXProject "Sord2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

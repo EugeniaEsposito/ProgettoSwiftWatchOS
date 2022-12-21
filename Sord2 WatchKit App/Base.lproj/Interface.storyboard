@@ -1,14 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
+        <!--Limite-->
+        <scene sceneID="7wN-AM-NXi">
+            <objects>
+                <controller identifier="Limite" id="ZKe-ls-368" customClass="LimiteInterfaceController" customModule="Sord2_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="LIMIT" textAlignment="center" id="bYg-rx-10M">
+                            <color key="textColor" red="0.086274509799999996" green="0.80000000000000004" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="18"/>
+                        </label>
+                        <group width="1" alignment="center" verticalAlignment="center" radius="0.0" id="k8D-EI-EXs">
+                            <items>
+                                <group alignment="left" verticalAlignment="center" radius="16" id="Xu4-LW-R6p">
+                                    <items>
+                                        <button width="32" height="32" alignment="center" verticalAlignment="center" title="-" id="mRo-sV-9xE">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="backgroundColor" red="0.086274509799999996" green="0.80000000000000004" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="32"/>
+                                            <connections>
+                                                <action selector="onMinusButton" destination="ZKe-ls-368" id="cuE-n6-7kZ"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group alignment="center" verticalAlignment="center" id="Dkv-gC-dyV">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="0" textAlignment="center" id="I09-3G-aUX">
+                                            <fontDescription key="font" type="system" pointSize="34"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group alignment="right" verticalAlignment="center" radius="16" id="AU7-Qw-nen">
+                                    <items>
+                                        <button width="32" height="32" alignment="center" verticalAlignment="center" title="+" id="qpr-Lo-jel">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="backgroundColor" red="0.086274509799999996" green="0.80000000000000004" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="32"/>
+                                            <connections>
+                                                <action selector="onPlusButton" destination="ZKe-ls-368" id="TUa-Dc-8EW"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <label alignment="center" verticalAlignment="center" text="DOLLARS" id="VGf-Ep-TEU">
+                            <color key="textColor" red="0.086274509799999996" green="0.80000000000000004" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                        </label>
+                        <group width="1" alignment="center" verticalAlignment="bottom" id="tah-m4-8qB">
+                            <items>
+                                <button width="1" alignment="center" verticalAlignment="center" title="Update" id="eI8-Y5-plf">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="backgroundColor" red="0.086274509799999996" green="0.80000000000000004" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="onImpostaButton" destination="ZKe-ls-368" id="WAN-4Q-7Z6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="currencyLabel" destination="VGf-Ep-TEU" id="7Pt-8V-S2d"/>
+                        <outlet property="label" destination="I09-3G-aUX" id="qcc-pU-b2k"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="32"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Sord2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="140" height="140" alignment="center" verticalAlignment="center" layout="overlap" id="xjt-Bv-wEA">
+                            <items>
+                                <imageView alignment="center" verticalAlignment="center" id="eo4-re-xZk"/>
+                                <label alignment="center" verticalAlignment="center" id="vH6-51-cNb">
+                                    <fontDescription key="font" type="system" pointSize="25"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="oqt-xk-tdX">
+                        <items>
+                            <menuItem title="Update Limit" image="scope" id="b5r-bL-iEh">
+                                <connections>
+                                    <action selector="onImpostaLimite" destination="AgC-eL-Hgc" id="ycj-5B-pPS"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="label" destination="vH6-51-cNb" id="wb6-2k-TAS"/>
+                        <outlet property="statsImg" destination="eo4-re-xZk" id="61f-fO-fpg"/>
+                        <segue destination="JqH-DA-rme" kind="relationship" relationship="nextPage" id="4m3-82-7AX"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -29,19 +123,222 @@
             </objects>
             <point key="canvasLocation" x="220" y="643"/>
         </scene>
+        <!--TableInterfaceController-->
+        <scene sceneID="0z6-9C-13R">
+            <objects>
+                <controller identifier="TableInterfaceController" id="JqH-DA-rme" customClass="TableInterfaceController" customModule="Sord2_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="qdH-nt-gDt">
+                            <items>
+                                <tableRow identifier="RowController" id="0e3-Et-fGd" customClass="RowController" customModule="Sord2_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="43" alignment="left" spacing="8" id="Ylw-p3-A0T">
+                                        <items>
+                                            <group width="35" alignment="left" verticalAlignment="center" id="Rnb-6a-zHa">
+                                                <items>
+                                                    <imageView alignment="center" verticalAlignment="center" id="hvH-Ru-Inl"/>
+                                                </items>
+                                            </group>
+                                            <group alignment="left" layout="vertical" id="T8i-MJ-hum">
+                                                <items>
+                                                    <group alignment="left" layout="vertical" id="0JT-2m-xlv">
+                                                        <items>
+                                                            <label alignment="left" text="Label" id="Id8-3A-eUy"/>
+                                                        </items>
+                                                    </group>
+                                                    <group alignment="left" verticalAlignment="bottom" layout="vertical" id="QjI-WE-VuT">
+                                                        <items>
+                                                            <label alignment="center" verticalAlignment="bottom" text="Label" id="6Ce-CO-pio">
+                                                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <connections>
+                                            <segue destination="qrB-G9-mbz" kind="push" id="zwz-Tf-6Uc"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="hvH-Ru-Inl" id="8fm-em-SEP"/>
+                                        <outlet property="label" destination="Id8-3A-eUy" id="miG-Gd-Ahl"/>
+                                        <outlet property="myLabel" destination="6Ce-CO-pio" id="tlp-Cz-Is5"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="qdH-nt-gDt" id="dcd-gW-zZe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+        <!--DetailInterfaceController-->
+        <scene sceneID="Xdd-ZV-Xg5">
+            <objects>
+                <controller identifier="DetailInterfaceController" id="qrB-G9-mbz" customClass="DetailInterfaceController" customModule="Sord2_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="24" alignment="center" id="Bpc-uV-yPi">
+                            <items>
+                                <label alignment="right" verticalAlignment="center" id="AH0-GW-nfN"/>
+                                <button width="25" height="22" alignment="right" verticalAlignment="center" backgroundImage="delete.left.fill" catalog="system" id="tAT-kr-mBT">
+                                    <connections>
+                                        <action selector="delete" destination="qrB-G9-mbz" id="bIJ-kY-4I4"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="qrY-DK-vAW">
+                            <items>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="left" verticalAlignment="bottom" title="7" id="ims-AC-WR6">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="seven" destination="qrB-G9-mbz" id="vGG-bE-VOS"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="8" id="byv-Eq-mPa">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="eight" destination="qrB-G9-mbz" id="Wjd-s9-q1l"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="right" verticalAlignment="bottom" title="9" id="yKU-Do-lr3">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="nine" destination="qrB-G9-mbz" id="5oH-Nm-hD6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="9B8-MG-qaU">
+                            <items>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="left" verticalAlignment="bottom" title="4" id="xxr-Fa-PDs">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="four" destination="qrB-G9-mbz" id="eji-4a-lgl"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="5" id="jLM-fJ-cBm">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="five" destination="qrB-G9-mbz" id="CjT-e8-bz4"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="6" id="AfO-dE-oSb">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="six" destination="qrB-G9-mbz" id="xAj-Hj-GAg"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="AMJ-5W-Lc3">
+                            <items>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="1" id="5JI-Qx-UAK">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="one" destination="qrB-G9-mbz" id="Smf-vK-XTp"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="2" id="nYP-gj-yEE">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="two" destination="qrB-G9-mbz" id="jUa-vj-E78"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="3" id="vPD-g0-ZGl">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="three" destination="qrB-G9-mbz" id="ghf-GQ-kAX"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="3Nf-Sj-5lx">
+                            <items>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="0" id="2EQ-Qt-ylZ">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="zero" destination="qrB-G9-mbz" id="uvO-eW-0c0"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="." id="9Yg-56-hbO">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="decimal" destination="qrB-G9-mbz" id="SWb-YQ-Scn"/>
+                                    </connections>
+                                </button>
+                                <button width="0.40000000000000002" widthAdjustment="-10" height="28" alignment="center" verticalAlignment="bottom" title="C" id="g2a-5n-J9R">
+                                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
+                                    <connections>
+                                        <action selector="clear" destination="qrB-G9-mbz" id="vd3-TW-KQZ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" height="26" alignment="left" verticalAlignment="bottom" title="DONE" id="Lho-fh-h95">
+                            <color key="backgroundColor" red="0.086274509799999996" green="0.80000000000000004" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <variation key="device=watch38mm" height="22"/>
+                            <variation key="device=watch40mm" height="24"/>
+                            <variation key="device=watch44mm" height="28"/>
+                            <connections>
+                                <action selector="add" destination="qrB-G9-mbz" id="74B-ee-fp3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="deleteButton" destination="tAT-kr-mBT" id="9TX-cP-BnT"/>
+                        <outlet property="resultLabel" destination="AH0-GW-nfN" id="0eN-ka-hG1"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="726" y="345"/>
+        </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Sord2_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Sord2_WatchKit_App" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="353" y="962"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="delete.left.fill" catalog="system" width="64" height="50"/>
+        <image name="scope" width="35" height="35"/>
+    </resources>
 </document>

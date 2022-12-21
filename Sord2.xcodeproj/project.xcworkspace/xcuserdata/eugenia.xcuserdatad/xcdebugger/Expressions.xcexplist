@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "LimitViewController.saveButton(_:):LimitViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "WatchSessionManager.sharedManager.validSession">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InterfaceController.resetExpense(limit:):InterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "period">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddExpenseIntentHandler.handle(intent:completion:):AddExpenseIntentHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "intent.category">
+            </PersistentString>
+            <PersistentString
+               value = "intent.amount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableViewController.makeLight():TableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LimiteInterfaceController.willActivate():LimiteInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExtensionDelegate.applicationDidFinishLaunching():ExtensionDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "spesa">
+            </PersistentString>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailInterfaceController.add():DetailInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "check">
+            </PersistentString>
+            <PersistentString
+               value = "spesa">
+            </PersistentString>
+            <PersistentString
+               value = "check2">
+            </PersistentString>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+            <PersistentString
+               value = "WKExtension.shared().delegate as? ExtensionDelegate">
+            </PersistentString>
+            <PersistentString
+               value = "CLKComplicationServer.sharedInstance().reloadTimeline(for: CLKComplicationServer.sharedInstance().activeComplications![0])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ComplicationController.getCurrentTimelineEntry(for:withHandler:):ComplicationController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+            <PersistentString
+               value = "firstDollar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LimiteInterfaceController.plus():LimiteInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dollar">
+            </PersistentString>
+            <PersistentString
+               value = "firstDollar">
+            </PersistentString>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+            <PersistentString
+               value = "dollars">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LimiteInterfaceController.onImpostaButton():LimiteInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+            <PersistentString
+               value = "dollars">
+            </PersistentString>
+            <PersistentString
+               value = "firstDollar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableViewController.switch(_:):TableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "button">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableViewController.checkMode():TableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "defaults.integer(forkey: &quot;Switch&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WatchSessionManager.validSession.getter:WatchSessionManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LimitViewController.viewDidLoad():LimitViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dollari">
+            </PersistentString>
+            <PersistentString
+               value = "dollariItem">
+            </PersistentString>
+            <PersistentString
+               value = "dollar">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TableInterfaceController.willActivate():TableInterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "amount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LimiteInterfaceController.onImpostaButton():LimiteInterfaceController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import Intents
+import WatchConnectivity
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+//    var session: WCSession!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        WatchSessionManager.sharedManager.startSession()
+            INPreferences.requestSiriAuthorization { status in
+          if status == .authorized {
+            print("Hey, Siri!")
+          } else {
+            print("Nay, Siri!")
+          }
+        }
         return true
     }
 
